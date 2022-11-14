@@ -12,7 +12,7 @@ const CartContainer = () => {
         return(
             <section className='cart'>
                 <header>
-                    <h2>Your cart</h2>
+                    <h2>Your Cart</h2>
                     <h4 className='empty-cart'>is empty</h4>
                 </header>
             </section>
