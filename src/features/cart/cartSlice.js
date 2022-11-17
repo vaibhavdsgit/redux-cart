@@ -10,7 +10,7 @@ const initialState = {
 
 const cartSlice = createSlice({
     name: "cart",
-    initialState,
+    initialState, //initialState: initialState
     reducers:{
         clearCart:(state)=>{
             state.cartItems = [];
@@ -41,5 +41,5 @@ const cartSlice = createSlice({
 })
 // console.log(cartSlice); 
 
-export const {clearCart, removeItem, increase, decrease, calculateTotals }=cartSlice.actions;
+export const {clearCart, removeItem, increase, decrease, calculateTotals }=cartSlice.actions; //generate actions
 export default cartSlice.reducer
